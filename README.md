@@ -17,7 +17,7 @@ Upload the contents of this folder to the root of your GitHub repository.
 
 ## Before sharing
 
-1. Add your current CV as `assets/Marc-Harris-CV.pdf`
+1. Add your current CV as `/Marc-Harris-CV.pdf`
 2. Replace `YOUR-EMAIL@example.com` in `index.html`
 3. Add your telephone number or LinkedIn link if wanted
 4. Check Flickr for confidential images or restricted client information
