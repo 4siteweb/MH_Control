@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06111a">
+  <meta name="description" content="MH Control — Marc Harris engineering portfolio, career journey and project evidence.">
+  <title>MH Control | Marc Harris</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#top">
+      <span class="brand-icon"><i data-lucide="activity"></i></span>
+      <span><strong>MH CONTROL</strong><small>Engineering Portfolio</small></span>
+    </a>
+    <div class="system-status"><span></span><div><strong>PORTFOLIO ONLINE</strong><small>Version 1.0</small></div></div>
+    <nav>
+      <a class="active" href="#top"><i data-lucide="monitor-cog"></i>Overview</a>
+      <a href="#profile"><i data-lucide="user-round"></i>Profile</a>
+      <a href="#career"><i data-lucide="route"></i>Career Journey</a>
+      <a href="#projects"><i data-lucide="images"></i>Project Evidence</a>
+      <a href="#qualifications"><i data-lucide="badge-check"></i>Qualifications</a>
+      <a href="#contact"><i data-lucide="send"></i>Contact</a>
+    </nav>
+    <div class="side-footer">Marc Harris<br><span>Electrical • Utilities • Project Delivery</span></div>
+  </aside>
+
+  <div class="main">
+    <header>
+      <button id="menuButton" class="menu-button"><i data-lucide="menu"></i></button>
+      <div><p>MH CONTROL / HOME</p><strong>Professional Operating System</strong></div>
+      <a class="header-link" href="https://www.flickr.com/photos/storefit/albums/" target="_blank" rel="noreferrer">Open Flickr <i data-lucide="arrow-up-right"></i></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div>
+          <span class="label">Engineering • Field Operations • Delivery</span>
+          <h1>Marc Harris<br><em>Practical experience, documented.</em></h1>
+          <p>A career portfolio combining electrical installation, retail fit-out, utilities, surveying, pump optimisation and project delivery — supported by photographic evidence.</p>
+          <div class="hero-buttons">
+            <a class="button primary" href="#career"><i data-lucide="play"></i> Enter Control Room</a>
+            <a class="button secondary" href="assets/Marc-Harris-CV.pdf"><i data-lucide="file-down"></i> Download CV</a>
+          </div>
+          <small class="cv-note">Add your latest PDF to <code>assets/Marc-Harris-CV.pdf</code>.</small>
+        </div>
+        <div class="overview-panel">
+          <div class="panel-title"><span>CAREER SYSTEM</span><b>ONLINE</b></div>
+          <div class="metric"><span>Project albums</span><strong>39</strong></div>
+          <div class="metric"><span>Primary sectors</span><strong>6</strong></div>
+          <div class="metric"><span>Current portfolio</span><strong>V1.0</strong></div>
+          <div class="signal-row"><span class="green"></span>Electrical</div>
+          <div class="signal-row"><span class="green"></span>Water & Utilities</div>
+          <div class="signal-row"><span class="green"></span>Retail & Fit-Out</div>
+          <div class="signal-row"><span class="amber"></span>Project Controls Growth</div>
+        </div>
+      </section>
+
+      <section class="section" id="profile">
+        <div class="section-head"><span>01 / PROFILE</span><h2>Built from real work.</h2></div>
+        <div class="profile-grid">
+          <p class="lead">I combine a strong electrical and site-based background with surveying, coordination, refurbishment and utility-sector project delivery.</p>
+          <div>
+            <p>My experience spans live retail environments, temporary site electrics, cable jointing, data and signage installations, education projects, pumping stations and operational water assets.</p>
+            <p>MH Control brings the CV, career history and project evidence together in one place, allowing employers and hiring managers to see the work behind the job titles.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark" id="career">
+        <div class="section-head"><span>02 / CAREER JOURNEY</span><h2>Employment and technical progression.</h2></div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-head"><span>03 / PROJECT EVIDENCE</span><h2>Historical work archive.</h2></div>
+        <div class="project-tools">
+          <input id="projectSearch" type="search" placeholder="Search projects, e.g. electrical, retail, cable...">
+          <span>39 public albums</span>
+        </div>
+        <div class="featured-grid">
+          <a href="https://www.flickr.com/photos/storefit/albums/72157700847161484" target="_blank" rel="noreferrer"><i data-lucide="store"></i><span>Retail Fit-Out</span><strong>Topps Tiles refresh and electrical installations</strong></a>
+          <a href="https://www.flickr.com/photos/storefit/albums/72157655560973033" target="_blank" rel="noreferrer"><i data-lucide="school"></i><span>Education & Data</span><strong>Electrical and data installations across the North West</strong></a>
+          <a href="https://www.flickr.com/photos/storefit/albums/72157657885802191" target="_blank" rel="noreferrer"><i data-lucide="cable"></i><span>Power & Data</span><strong>Cable branches, splices, mains joints and call-outs</strong></a>
+          <a href="https://www.flickr.com/photos/storefit/albums/72157635760671854" target="_blank" rel="noreferrer"><i data-lucide="panel-top"></i><span>Controls & Distribution</span><strong>Control rooms, biometrics and consumer units</strong></a>
+        </div>
+        <div class="archive-list" id="archiveList"></div>
+      </section>
+
+      <section class="section dark" id="qualifications">
+        <div class="section-head"><span>04 / QUALIFICATIONS</span><h2>Training and site capability.</h2></div>
+        <div class="qualification-grid" id="qualificationGrid"></div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <span class="label">05 / CONTACT</span>
+        <h2>Open to the right engineering and project-delivery opportunity.</h2>
+        <p>Add your preferred email, telephone number and LinkedIn profile directly in <code>index.html</code> before sending the link.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="mailto:YOUR-EMAIL@example.com"><i data-lucide="mail"></i>Email Marc</a>
+          <a class="button secondary" href="https://4siteweb.github.io/marc-harris-portfolio/"><i data-lucide="globe"></i>Portfolio URL</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>MH Control v1.0 <span>•</span> Marc Harris Engineering Portfolio</footer>
+  </div>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
