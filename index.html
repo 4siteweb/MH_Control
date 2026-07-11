@@ -1,122 +1,186 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Marc Harris engineering portfolio, project evidence and technical reference centre.">
-  <meta name="theme-color" content="#0d1117">
-  <title>MH Control | Marc Harris</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>M-Hub | Marc Harris Engineering Portfolio</title>
+  <meta name="description" content="M-Hub is Marc Harris's engineering portfolio, bringing together electrical, utilities, water infrastructure, project delivery, technical tools and home automation work.">
+  <meta name="author" content="Marc Harris">
+  <meta name="theme-color" content="#07111f">
+
+  <meta property="og:title" content="M-Hub | Engineering Portfolio">
+  <meta property="og:description" content="Practical engineering experience, technical projects and digital tools by Marc Harris.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://juswrk.github.io/m-hub/">
+  <meta property="og:image" content="https://juswrk.github.io/m-hub/assets/images/juswrk-logo.jpg">
+
+  <link rel="icon" href="assets/images/juswrk-logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#top"><span class="brand-mark">MH</span><span><strong>MH Control</strong><small>Engineering Portfolio</small></span></a>
-    <button class="menu-button" id="menuButton" aria-label="Open menu"><i data-lucide="menu"></i></button>
-    <nav id="mainNav">
-      <a href="#profile">Profile</a>
-      <a href="#career">Career</a>
+    <a class="brand" href="./" aria-label="M-Hub home">
+      <img src="assets/images/juswrk-logo.jpg" alt="Juswrk logo">
+      <span>
+        <strong>M-Hub</strong>
+        <small>A Juswrk project</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#reference">Reference Centre</a>
-      <a href="#messages">Messages</a>
-      <a href="#qualifications">Qualifications</a>
-      <a class="nav-cta" href="assets/Marc-Harris-CV.pdf">Download CV</a>
+      <a href="#timeline">Career</a>
+      <a href="#lab">Live Lab</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
-      <div>
-        <span class="eyebrow">Electrical • Utilities • Project Delivery</span>
-        <h1>Practical experience.<br><span>Clearly presented.</span></h1>
-        <p>A professional record of career history, technical capability, project evidence and engineering reference work.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">Electrical · Utilities · Project Delivery · Digital</p>
+        <h1>Practical engineering.<br><span>Clearly presented.</span></h1>
+        <p class="hero-text">
+          M-Hub brings together real project experience, technical knowledge,
+          engineering tools and developing automation systems in one place.
+        </p>
         <div class="hero-actions">
-          <a class="button primary" href="#career">View career journey</a>
-          <a class="button secondary" href="#reference">Open reference centre</a>
+          <a class="button primary" href="#projects">Explore projects</a>
+          <a class="button secondary" href="#timeline">View career timeline</a>
         </div>
       </div>
-      <div class="hero-summary">
-        <div><span>Project albums</span><strong>39</strong></div>
-        <div><span>Career record</span><strong>1989–Now</strong></div>
-        <div><span>Reference centre</span><strong>Live</strong></div>
-      </div>
-    </section>
 
-    <section class="section compact" id="profile">
-      <div class="section-heading">
-        <span class="eyebrow">Profile</span>
-        <h2>Experience built across live sites, infrastructure and delivery.</h2>
-      </div>
-      <div class="intro-grid">
-        <p class="lead">Electrical and project-delivery experience spanning retail, utilities, security, controls, data, temporary works and operational water assets.</p>
-        <div class="body-copy">
-          <p>MH Control brings the CV, work history, technical references and photographic evidence together in one searchable place.</p>
+      <aside class="status-panel" aria-label="M-Hub status">
+        <div class="panel-head">
+          <span>System overview</span>
+          <span class="live-dot">Live</span>
         </div>
-      </div>
+        <dl>
+          <div><dt>Portfolio</dt><dd>Online</dd></div>
+          <div><dt>Engineering tools</dt><dd>Building</dd></div>
+          <div><dt>Home automation</dt><dd>Development</dd></div>
+          <div><dt>Project archive</dt><dd>Expanding</dd></div>
+        </dl>
+      </aside>
     </section>
 
-    <section class="section soft compact" id="career">
+    <section id="about" class="section">
       <div class="section-heading">
-        <span class="eyebrow">Career</span>
-        <h2>Employment history and technical progression.</h2>
+        <p class="eyebrow">About M-Hub</p>
+        <h2>More than a CV</h2>
       </div>
-      <div class="timeline" id="timeline"></div>
+      <p class="section-intro">
+        A working record of electrical installation, water and wastewater assets,
+        surveys, controls, project coordination, technical development and practical problem solving.
+      </p>
     </section>
 
-    <section class="section compact" id="projects">
-      <div class="section-heading row">
-        <div><span class="eyebrow">Projects</span><h2>Selected work and photographic evidence.</h2></div>
-        <a class="text-link" href="https://www.flickr.com/photos/storefit/albums/" target="_blank" rel="noreferrer">Open Flickr archive <i data-lucide="arrow-up-right"></i></a>
-      </div>
-      <div class="featured-grid">
-        <a class="project-card" href="https://www.flickr.com/photos/storefit/albums/72157700847161484" target="_blank" rel="noreferrer"><span class="project-icon"><i data-lucide="store"></i></span><div><small>Retail Fit-Out</small><h3>Topps Tiles</h3><p>Store refresh, shelving and electrical installation work.</p></div></a>
-        <a class="project-card" href="https://www.flickr.com/photos/storefit/albums/72157655560973033" target="_blank" rel="noreferrer"><span class="project-icon"><i data-lucide="school"></i></span><div><small>Education & Data</small><h3>Electrical Installations</h3><p>Electrical and data work across education sites.</p></div></a>
-        <a class="project-card" href="https://www.flickr.com/photos/storefit/albums/72157657885802191" target="_blank" rel="noreferrer"><span class="project-icon"><i data-lucide="cable"></i></span><div><small>Power & Data</small><h3>Cable Jointing</h3><p>Branches, splices, mains joints and call-outs.</p></div></a>
-        <a class="project-card" href="https://www.flickr.com/photos/storefit/albums/72157635760671854" target="_blank" rel="noreferrer"><span class="project-icon"><i data-lucide="panel-top"></i></span><div><small>Controls</small><h3>Electrical Infrastructure</h3><p>Control-room, biometric and distribution work.</p></div></a>
-      </div>
-      <div class="archive-tools"><input id="projectSearch" type="search" placeholder="Search the project archive"><span>39 public albums</span></div>
-      <div class="archive-list" id="archiveList"></div>
-    </section>
-
-    <section class="section soft compact" id="reference">
+    <section id="projects" class="section">
       <div class="section-heading">
-        <span class="eyebrow">Reference Centre</span>
-        <h2>Experience, formulas and field tools in one place.</h2>
+        <p class="eyebrow">Featured work</p>
+        <h2>Projects and evidence</h2>
       </div>
-      <div class="reference-grid" id="referenceGrid"></div>
 
-      <div class="reference-notes">
-        <article id="tank-sizing"><h3>Tank sizing</h3><p>Cylindrical volume: V = πr²h. Rectangular volume: V = l × w × h. Convert cubic metres to litres by multiplying by 1,000.</p></article>
-        <article id="flow-capacity"><h3>Flow capacity</h3><p>Flow rate: Q = V ÷ t. Record volume, elapsed time, level changes, pump state and any restrictions.</p></article>
-        <article id="pump-performance"><h3>Pump performance</h3><p>Hydraulic power: P = ρgQH. Input power can be compared against hydraulic power to estimate efficiency.</p></article>
-        <article id="electrical-testing"><h3>Electrical testing</h3><p>Inspection, continuity, insulation resistance, polarity, earth-fault loop impedance, RCD testing and functional checks.</p></article>
-        <article id="nrv-development"><h3>NRV development</h3><p>Concept work covering self-cleaning valve geometry, throttling, pressure sensing and removable cartridge arrangements.</p></article>
+      <div class="card-grid">
+        <article class="card featured">
+          <span class="tag">Live</span>
+          <h3>Engineering Portfolio</h3>
+          <p>Career history, project evidence, qualifications and practical site experience.</p>
+          <a href="#timeline">Open portfolio →</a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Building</span>
+          <h3>Pump & Flow Tools</h3>
+          <p>Flow-capacity, tank-volume and pump-performance tools developed for practical use.</p>
+          <a href="#lab">View lab status →</a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Development</span>
+          <h3>Home Automation Lab</h3>
+          <p>Jetson-powered CCTV, alerts, sensors, Alexa integration and intelligent home control.</p>
+          <a href="#lab">See the roadmap →</a>
+        </article>
+
+        <article class="card">
+          <span class="tag">Archive</span>
+          <h3>Project Evidence</h3>
+          <p>Electrical, retail, utilities, controls and infrastructure work supported by photographs.</p>
+          <a href="#contact">Request project evidence →</a>
+        </article>
       </div>
     </section>
 
-    <section class="section compact" id="messages">
+    <section id="timeline" class="section">
       <div class="section-heading">
-        <span class="eyebrow">WrightLine Messages</span>
-        <h2>Turn a site update into a ready-to-send email.</h2>
+        <p class="eyebrow">Career timeline</p>
+        <h2>Experience across industries</h2>
       </div>
-      <form class="message-form" id="messageForm">
-        <label>Category<select id="messageCategory"><option>Civils</option><option>Electrical</option><option>Mechanical</option><option>General</option></select></label>
-        <label>Site / Job<input id="messageSite" placeholder="Site code, location or project" required></label>
-        <label>Status<select id="messageStatus"><option>Update</option><option>Action Required</option><option>Issue</option><option>Complete</option></select></label>
-        <label class="full">Message<textarea id="messageBody" rows="5" placeholder="Enter the site update..." required></textarea></label>
-        <button class="button primary" type="submit">Open email to 4siteonline@gmail.com</button>
-      </form>
+
+      <div class="timeline">
+        <article>
+          <time>2026</time>
+          <div>
+            <h3>Jacobs Engineering</h3>
+            <p>Pump optimisation, United Utilities assets, access coordination, surveys, RAMS, site files and refurbishment support.</p>
+          </div>
+        </article>
+
+        <article>
+          <time>2024–2026</time>
+          <div>
+            <h3>Eric Wright</h3>
+            <p>Framework and site-delivery experience supporting temporary works, electrical activities and project coordination.</p>
+          </div>
+        </article>
+
+        <article>
+          <time>Earlier career</time>
+          <div>
+            <h3>Electrical, retail, security and infrastructure</h3>
+            <p>A broad practical background covering installation, testing, controls, data, fit-out and operational environments.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="section soft compact" id="qualifications">
-      <div class="section-heading"><span class="eyebrow">Qualifications</span><h2>Technical and site capability.</h2></div>
-      <div class="qualification-grid" id="qualificationGrid"></div>
+    <section id="lab" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Live Lab</p>
+        <h2>What is being built</h2>
+      </div>
+
+      <div class="lab-list">
+        <div><span>Pump flow calculator</span><b>Planned</b></div>
+        <div><span>Tank sizing tool</span><b>Planned</b></div>
+        <div><span>Survey toolkit</span><b>Planned</b></div>
+        <div><span>Jetson home automation controller</span><b>Development</b></div>
+        <div><span>CCTV alerts and object detection</span><b>Development</b></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Engineering, projects and practical delivery</h2>
+        <p>Use M-Hub to review current work, technical development and project evidence.</p>
+      </div>
+      <a class="button primary" href="mailto:4siteonline@gmail.com">Email Marc</a>
     </section>
   </main>
 
-  <footer><span>MH Control</span><span>4siteweb GitHub Pages</span></footer>
+  <footer>
+    <span>© <span id="year"></span> Marc Harris</span>
+    <span>M-Hub · A Juswrk project</span>
+  </footer>
 
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

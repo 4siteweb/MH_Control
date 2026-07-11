@@ -1,33 +1,44 @@
-# MH Control
-Version: v1.2
+# M-Hub
 
-## Live
-https://4siteweb.github.io/marc-harris-portfolio/
+M-Hub is Marc Harris's engineering portfolio and project centre.
 
-## Repository
-https://github.com/4siteweb/marc-harris-portfolio
+## Live site
 
-## Deploy
-1. Upload all files to the repository root.
-2. Commit to `main`.
-3. GitHub Pages updates automatically.
-4. Open the live link above.
+https://juswrk.github.io/m-hub/
 
-## Included
-- Sleek compact portfolio
-- Expanded career timeline
-- 39 Flickr album links
-- WrightLine email message builder
-- Engineering Reference Centre
-- Qualifications
-- CV link
+## Purpose
 
-## Before Publishing
-- Add `assets/Marc-Harris-CV.pdf`
-- Check dates and employer wording
-- Review Flickr images for confidential content
+M-Hub brings together:
 
-## Next
-- Replace placeholder reference cards with live calculator/project URLs
-- Add animated timeline
-- Add individual project pages
+- Electrical and utilities experience
+- Water and wastewater project work
+- Career history and qualifications
+- Project evidence
+- Engineering tools and calculators
+- Home automation development
+- Technical reference material
+
+## Repository structure
+
+```text
+m-hub/
+├── index.html
+├── README.md
+├── assets/
+│   └── images/
+├── css/
+│   └── style.css
+└── js/
+    └── app.js
+```
+
+## GitHub Pages
+
+Publish from:
+
+- Branch: `main`
+- Folder: `/(root)`
+
+## Branding
+
+M-Hub is a Juswrk project.
